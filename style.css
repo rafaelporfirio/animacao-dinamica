@@ -1,0 +1,31 @@
+#container{
+	position: relative;
+	width: 300px;
+	height: 100px;
+	top: 0;
+	left: 0;
+	border: 1px solid #333;
+	box-sizing: border-box;
+}
+
+#texto1, #texto2, #texto3, #texto4, #texto5, #texto6{
+	position: absolute;
+	top: 40%;
+	width: 16px;
+	height: 17px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+} 
+
+#texto1, #texto4{
+	left: 35%;
+}   
+
+#texto2, #texto5{
+	left: 45%;
+}     
+
+#texto3, #texto6{
+	left: 55%;
+}    
+   
